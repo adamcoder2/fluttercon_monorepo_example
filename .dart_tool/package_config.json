@@ -326,7 +326,7 @@
       "languageVersion": "3.1"
     },
     {
-      "name": "monorepo",
+      "name": "_",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "3.9"

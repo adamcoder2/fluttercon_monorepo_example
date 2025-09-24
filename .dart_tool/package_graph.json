@@ -1,15 +1,15 @@
 {
   "roots": [
+    "_",
     "admin_app",
     "client_app",
     "core_logic",
     "design_system",
-    "monorepo",
     "provider_app"
   ],
   "packages": [
     {
-      "name": "monorepo",
+      "name": "_",
       "version": "0.0.0",
       "dependencies": [],
       "devDependencies": [
@@ -18,7 +18,7 @@
     },
     {
       "name": "core_logic",
-      "version": "0.0.1",
+      "version": "0.0.2",
       "dependencies": [
         "flutter"
       ],
@@ -29,7 +29,7 @@
     },
     {
       "name": "design_system",
-      "version": "0.0.1",
+      "version": "0.0.2",
       "dependencies": [
         "flutter"
       ],

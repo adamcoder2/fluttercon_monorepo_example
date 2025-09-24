@@ -1,4 +1,5 @@
-name: monorepo
+name: _
+repository: https://github.com/adamcoder2/fluttercon_monorepo_example.git
 publish_to: none
 environment:
   sdk: ^3.9.0
@@ -10,3 +11,26 @@ workspace:
   - apps/provider_app
 dev_dependencies:
   melos: ^7.1.1
+
+melos:
+  scripts:
+    run:client: cd apps/client_app && flutter run
+    run:admin: cd apps/admin_app && flutter run
+    run:provider: cd apps/provider_app && flutter run
+    analyze:all: melos exec -- flutter analyze
+    analyze:apps: melos exec --category="apps" -- flutter analyze
+    analyze:packages: melos exec --category="packages" -- dart analyze
+    test:all: melos exec -- flutter test
+    test:packages: melos exec --category="packages" -- flutter test
+    test:apps: melos exec --category="apps" -- flutter test
+    format:all: melos exec -- dart format .
+    format:apps: melos exec --category="apps" -- dart format .
+    format:packages: melos exec --category="packages" -- dart format .
+  categories:
+    apps:
+      - apps/client_app
+      - apps/admin_app
+      - apps/provider_app
+    packages:
+      - packages/core_logic
+      - packages/design_system

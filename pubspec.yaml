@@ -34,3 +34,6 @@ melos:
     packages:
       - packages/core_logic
       - packages/design_system
+  command:
+    version:
+      updateGitTagRefs: true

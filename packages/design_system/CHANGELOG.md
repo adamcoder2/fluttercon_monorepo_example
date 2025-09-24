@@ -1,3 +1,7 @@
+## 0.0.4
+
+ - **FEAT**: background color for floating action button. ([fb972164](https://github.com/adamcoder2/fluttercon_monorepo_example.git/commit/fb9721641982a97c6742fb65da270e4025bda328))
+
 ## 0.0.3
 
  - **REFACTOR**: update package names and versions, improve pubspec configuration, and enhance design system button styling. ([f1ebd183](https://github.com/adamcoder2/fluttercon_monorepo_example.git/commit/f1ebd183349eca4902db2b9f5224f39a7465e6ee))

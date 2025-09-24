@@ -21,7 +21,7 @@ dependencies:
     git:
       url: https://github.com/adamcoder2/fluttercon_monorepo_example.git
       path: packages/design_system
-      ref: design_system-v0.0.2
+      ref: design_system-v0.0.3
   
 
 

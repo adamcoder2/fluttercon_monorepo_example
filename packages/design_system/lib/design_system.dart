@@ -5,7 +5,6 @@ class MonorepoButtons {
     return FloatingActionButton(
       onPressed: onPressed,
       tooltip: tooltip,
-      backgroundColor: Colors.blue,
       child: const Icon(Icons.add),
     );
   }

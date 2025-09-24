@@ -1,0 +1,12 @@
+name: monorepo
+publish_to: none
+environment:
+  sdk: ^3.9.0
+workspace:
+  - packages/core_logic
+  - packages/design_system
+  - apps/admin_app
+  - apps/client_app
+  - apps/provider_app
+dev_dependencies:
+  melos: ^7.1.1

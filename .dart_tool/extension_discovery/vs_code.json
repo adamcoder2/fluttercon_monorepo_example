@@ -1,0 +1,1 @@
+{"version":2,"entries":[{"package":"monorepo","rootUri":"../","packageUri":"lib/"},{"package":"core_logic","rootUri":"../packages/core_logic/","packageUri":"lib/"},{"package":"design_system","rootUri":"../packages/design_system/","packageUri":"lib/"}]}
